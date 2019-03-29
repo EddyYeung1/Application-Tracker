@@ -65,6 +65,18 @@ section {
   border-radius: 0% 0% 100% 100%/0% 0% 25% 30%;
 }
 
+#team {
+  margin-top: 200px;
+  background-color: #210c3e;
+  width: 100%;
+  height: 700px;
+  border-top-left-radius: 100% 30%;
+  border-top-right-radius: 100% 25%;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+  color: #0cfcca;
+}
+
 #banner {
   margin-left: 125px;
   margin-top: 125px;
@@ -92,4 +104,17 @@ section {
 
 .grid-item h1 {
   margin: 20px;
+}
+
+.team-grid {
+  margin-top: 75px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+}
+
+.team-member img {
+  border-radius: 50%;
+  border: 4px solid #0cfcca;
 }
